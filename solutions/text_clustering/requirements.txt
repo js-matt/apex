@@ -1,0 +1,7 @@
+# Pinned to match the sandbox: apex/shared/competition/src/competition/text_clustering/dockerfiles/requirements.txt
+# Only these packages exist at scoring time — don't import anything else in solution.py.
+numpy==2.3.5
+scikit-learn==1.6.1
+fastapi==0.124.2
+uvicorn==0.38.0
+pydantic==2.12.5

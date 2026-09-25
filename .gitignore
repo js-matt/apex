@@ -1,0 +1,17 @@
+# Never commit wallet material or the apex link config (it points at your hotkey)
+.bittensor/
+.apex.config.json
+*.mnemonic
+*mnemonic*.txt
+
+# Official repo is cloned here for reference/CLI; keep it out of this repo
+apex/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local datasets
+data/
+*.jsonl
