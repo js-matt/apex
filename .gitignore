@@ -9,9 +9,16 @@ apex/
 
 # Python
 .venv/
+.venv-gt/
 __pycache__/
 *.pyc
 
 # Local datasets
 data/
 *.jsonl
+
+# Other miners' revealed submissions (reference only)
+top_solutions/
+
+# API keys (Macrocosmos etc.)
+.env
